@@ -1,6 +1,6 @@
 /*====Plain styles for phones (max-width: 1024px)======*/
 
-.contacts-container {
+.hp-5-contacts {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -138,6 +138,8 @@
   top: 30%;
 }
 .contact-picture-wrap {
+  max-width: 384px;
+  height: 220px;
   margin-top: 32px;
 }
 picture .contacts-image {
@@ -150,10 +152,14 @@ picture .contacts-image {
 
 @media screen and (min-width: 1024px) {
   .contacts-container {
-    padding-top: 56px;
-    padding-bottom: 40px;
+    
     display: flex;
     align-items: center;
+  }
+
+  .hp-5-contacts {
+    padding-top: 56px;
+    padding-bottom: 40px;
   }
   .contacts-header-first {
     font-size: 64px;
@@ -196,15 +202,19 @@ picture .contacts-image {
   .contact-picture-wrap {
     margin-left: 101px;
     margin-top: 13px;
+    min-width: 535px;
+    height: 412px;
   }
 }
 
 /*====Styles for desktops (min-width: 1280px)======*/
 
 @media screen and (min-width: 1280px) {
-  .contacts-container {
-    padding-bottom: 73px;
-  }
+ 
+.hp-5-contacts{
+  padding-bottom: 73px;
+}
+  
   .contacts-header-first {
     margin-bottom: 16px;
   }
@@ -219,5 +229,7 @@ picture .contacts-image {
   .contact-picture-wrap {
     margin-left: 108px;
     margin-top: 8px;
+    min-width: 634px;
+    height: 412px;
   }
 }

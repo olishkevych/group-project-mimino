@@ -9,19 +9,13 @@
 .hotel-h2,
 .rest-h2 {
   background-color: #0e0c07;
-}
-
-.rest-container {
   padding-top: 24px;
   padding-bottom: 40px;
   overflow: hidden;
+  background-origin: border-box;
 }
 
-.hotel-container {
-  padding-top: 24px;
-  padding-bottom: 40px;
-  overflow: hidden;
-}
+
 
 .textblock {
   max-width: 259px;
@@ -287,6 +281,7 @@
    width: max-content;
    height: auto;
    overflow: auto;
+   gap: 19px;
 
   }
 
@@ -358,8 +353,7 @@
   .hotel-container {
     background-image: none;
     max-width: 960px;
-    padding-top: 48px;
-    padding-bottom: 40px;
+    
   }
 
   .rest-h2 {
@@ -371,6 +365,8 @@
       url('../img/hmpg-2-4/restaurant-back-tablet.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    padding-top: 48px;
+    padding-bottom: 40px;
   }
 
   .hotel-h2 {
@@ -382,6 +378,8 @@
       url('../img/hmpg-2-4/hotel-back-tablet.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    padding-top: 48px;
+    padding-bottom: 40px;
   }
   .logo-h2 {
     font-size: 64px;
@@ -487,7 +485,7 @@
   .rest-slider-wrap,
   .hotel-slider-wrap {
     width: fit-content;
-
+gap: 34px;
     margin: 0;
   }
 
@@ -588,9 +586,12 @@
 
   .rest-slider-wrap,
   .hotel-slider-wrap {
+    gap: 87px;
     width: fit-content;
     margin: 0;
   }
+
+
 
   .big-slider-wrap {
     width: 930px;

@@ -239,22 +239,15 @@ Debugger plugin, simple demo plugin to console.log some of callbacks
 
   <script>
     // Init Swiper
-    var spaceBetween = 20;
-
-    if (window.matchMedia('(min-width: 1024px)').matches && window.matchMedia('(max-width: 1280px)').matches) {
-      spaceBetween = 34;
-    } else if (window.matchMedia('(min-width: 1280px)').matches) {
-      spaceBetween = 87;
-    } else if (window.matchMedia('(max-width: 1024px)').matches) {
-      spaceBetween = 20;
-    }
+   
 
     var swiper = new Swiper('.swiper', {
       // Install Plugin To Swiper
       modules: [myPlugin],
       slidesPerView: 'auto',
-
-      spaceBetween: spaceBetween,
+      centeredSlides: false,
+      
+     
 
 
       pagination: {
